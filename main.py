@@ -5,7 +5,7 @@ Stdlib only, no network, deterministic.
 """
 import os
 
-COMMIT = "fix: made it worse, but consistently. Renamed var to itself. Closes #1, opens #2."
+COMMIT = "fix: the fix for the fix; reverting the revert that fixed the fix that broke it"
 
 path = "/output/entry.txt"
 os.makedirs(os.path.dirname(path), exist_ok=True)
